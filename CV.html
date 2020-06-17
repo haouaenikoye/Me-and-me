@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link rel="stylesheet" href="style.css">
+  <title>MoiEtMoi</title>
+</head>
+<body >
+   
+   <div class="container py-5">
+    <div class="inside" id="Accordion">
+      <section>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-4  col-sm-12 p-0">
+                      <img class="img-fluid" width="690em" src="Enikoye.jpg" alt="">
+                  </div>
+                  <div class="col-lg-8 col-sm-12 p-0">
+                      <div class="container-fluid bg-dark d-flex align-items-center justify-content-around py-5">
+                          <h3 class="text-white m-0 py-5">Idrissa Enikoye Haoua</h3>
+                          <ul class="nav d-flex justify-content-between">
+                              <li class="nav-item">
+                                  <a href="#" class="nav-link">
+                                      <i class="fab fa-facebook-f"></i>
+                                  </a>
+                              </li>
+                              <li class="nav-item">
+                                  <a href="#" class="nav-link">
+                                      <i class="fab fa-twitter"></i>
+                                  </a>
+                              </li>
+                              <li class="nav-item">
+                                  <a href="#" class="nav-link">
+                                      <i class="fab fa-instagram"></i>
+                                  </a>
+                              </li>
+                              <li class="nav-item">
+                                  <a href="#" class="nav-link">
+                                      <i class="fab fa-github"></i>
+                                  </a>
+                              </li>
+                          </ul>
+                      </div>
+                      <div class="container-fluid font-weight-bold py-2 " style="background-color: #000;">
+                          <p class="text-white text-center m-0">Developpeur</p>
+                      </div>
+                      <div class=" row m-0 p-0 tab_menu font-weight-bold text-white">
+                        <div class="col-3 p-0">
+                           <button class="btn btn-primary rounded-0" id="btn" data-toggle="collapse" data-target="#Collapse_home">
+                            <i class="fas fa-home"></i>
+                            <p>Accueil</p>
+                           </button>
+                        </div>
+                        <div class="col-3 p-0">
+                            <button class="btn btn-success rounded-0" id="btn" data-toggle="collapse" data-target="#Collapse_resume">
+                                <i class="fas fa-graduation-cap"></i>
+                                <p>CV</p>
+                            </button>
+                        </div>
+                        <div class="col-3 p-0 m-0">
+                            <button class="btn btn-warning rounded-0 text-white" id="btn" data-toggle="collapse" data-target="#Collapse_work">
+                                <i class="fas fa-folder-open"></i>
+                                <p>Travail</p>
+                            </button>
+                        </div>
+                        <div class="col-3 p-0">
+                           <button class="btn btn-danger rounded-0" id="btn" data-toggle="collapse" data-target="#Collapse_contact">
+                            <i class="fas fa-envelope"></i>
+                            <p>Contact</p>
+                           </button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!--                HOME             -->
+
+      <section class="home_area collapse show" id="Collapse_home" data-parent="#Accordion">
+        <div class="container-fluid bg-info">
+            <div class="title py-4 text-white m-0">
+                <h4 class="font-weight-bold">Welcome to my page</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum</p>
+            </div>
+        </div>
+        <div class="container-fluid py-3">
+            <div class="my_progressbar">
+                <h4 class="font-weight-bold">My Skills</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum</p>
+                <div class="bar_de_progression font-weight-boldER">
+                    <div>
+                        <h5 class="mb-0 mt-2">HTML</h5>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped w-75" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <h5 class="mb-0 mt-2">CSS</h5>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-success w-60" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <h5 class="mb-0 mt-2">JAVASCRIPT</h5>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-info w-40" role="progressbar" style="width: 50%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      <!--               RESUME          --> 
+
+      <section class="resume_area collapse" id="Collapse_resume" data-parent="#Accordion">
+          <div class="container-fluid bg-success">
+              <div class="title py-4 text-white m-0">
+                  <h4 class="font-weight-bold">My resume</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum</p>
+              </div>
+          </div>
+          <div class="container-fluid py-4">
+              <h4 class="font-weight-bold">Where have I worked ?</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum</p>
+              <div class="d-flex">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="font-weight-bold">Codeloccol</h5>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum</p>
+                          <p class="p-2 bg-dark text-white">Position: <span class="font-weight-bold">Developpeur</span></p>
+                          <p class="p-2 bg-dark text-white">Phone: (+227) 93-33-70-28</p>
+                      </div>
+                      <div class="card-footer">
+                          <p class="font-weight-bold text-muted m-0">Dates: 2019_2020</p>
+                      </div>
+                  </div>
+                  <div class="card mx-3">
+                      <div class="card-body">
+                          <h5 class="font-weight-bold">CIPMEN</h5>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum</p>
+                          <p class="p-2 bg-dark text-white">Position: <span class="font-weight-bold">Developpeur</span></p>
+                          <p class="p-2 bg-dark text-white">Phone: (+22793-33-70-28)</p>
+                      </div>
+                      <div class="card-footer">
+                          <p class="font-weight-bold text-muted m-0">Dates: 2019_2020</p>
+                      </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                        <h5 class="font-weight-bold"> Mon Lab</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum</p>
+                        <p class="p-2 bg-dark text-white">Position: <span class="font-weight-bold">Back-End Developer</span></p>
+                        <p class="p-2 bg-dark text-white">Phone: +227) 93-33-70-28)</p>
+                    </div>
+                    <div class="card-footer">
+                        <p class="font-weight-bold text-muted m-0">Dates:2019_2020</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+       <!--             WORK           -->
+
+       <section class="collapse" id="Collapse_work" data-parent="#Accordion">
+        <div class="container-fluid bg-warning">
+            <div class="title py-4 m-0">
+                <h4 class="font-weight-bold">My Portfolio </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum</p>
+            </div>
+        </div>
+        <div class="container-fluid py-4">
+            <h4 class="font-weight-bold">What have I built ?</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum</p>
+            <div class="pictures">
+                <div class="row">
+                    <div class=" col-12 d-flex flex-row">
+                        <a href="#Modal_Images1" data-toggle="modal">
+                            <img class="img-fluid" src="images1.jpeg" height="300px" alt="">
+                        </a>
+                    </div>
+                </div>          
+    </section>
+      <!--                 CONTACT                -->
+
+      <section class="collapse" id="Collapse_contact" data-parent="#Accordion">
+          <div class="container-fluid bg-danger text-white">
+              <div class="title py-4 m-0">
+                  <h4 class="font-weight-bold">Contact </h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum</p>
+              </div>
+          </div>
+          <div class="container-fluid py-4">
+              <h4 class="font-weight-bold">Get in touch</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum</p>
+              <form>
+                  <div class="form-group">
+                      <div class="input-group mb-3 mb-md-2">
+                          <div class="input-group-prepend">
+                              <div class="input-group-text bg-danger">
+                                  <i class="fas fa-user"></i>
+                              </div>
+                          </div>
+                          <input type="text" class="form-control bg-dark" placeholder="Nom">
+                      </div>
+                      <div class="input-group mb-3 mb-sm-2 ">
+                          <div class="input-group-prepend ">
+                              <div class="input-group-text bg-danger">
+                                  <i class="fas fa-envelope"></i>
+                              </div>
+                          </div>
+                          <input type="email" class="form-control bg-dark" placeholder="Email">
+                      </div>
+                      <div class="input-group">
+                          <div class="input-group-prepend ">
+                              <div class="input-group-text bg-danger">
+                                  <i class="fas fa-pen"></i>
+                              </div>
+                          </div>
+                          <textarea id="" cols="30" rows="5" class="form-control bg-dark" placeholder="Message"></textarea>
+                      </div>
+                  </div>
+                  <button type="submit" class="btn btn-danger w-100">Submit</button>
+              </form>
+          </div>
+      </section>
+      <!--              FOOTER           -->
+
+      <div class="container-fluid bg-dark py-5">
+          <button class="btn btn-dark border-light"><i class="fas fa-cloud"></i> Download Resume</button>
+      </div>
+    </div>
+
+    </div>
+
+
+         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> 
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
