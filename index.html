@@ -20,7 +20,7 @@
                       <img class="img-fluid" width="690em" src="Enikoye.jpg" alt="">
                   </div>
                   <div class="col-lg-8 col-sm-12 p-0">
-                      <div class="container-fluid bg-dark d-flex align-items-center justify-content-around py-5">
+                      <div class="container-fluid bg-dark d-flex align-items-center justify-content-around py-3">
                           <h3 class="text-white m-0 py-5">idrissa Enikoye Haoua</h3>
                           <ul class="nav d-flex justify-content-between">
                               <li class="nav-item">
@@ -50,25 +50,25 @@
                       </div>
                       <div class=" row m-0 p-0 tab_menu font-weight-bold text-white">
                           <div class="col-3 p-0">
-                             <button class="btn btn-primary rounded-0" id="btn" data-toggle="collapse" data-target="#Collapse_home">
+                             <button class="btn btn-primary rounded-0 btne" data-toggle="collapse" data-target="#accueil">
                               <i class="fas fa-home"></i>
                               <p>Accueil</p>
                              </button>
                           </div>
                           <div class="col-3 p-0">
-                              <button class="btn btn-success rounded-0" id="btn" data-toggle="collapse" data-target="#Collapse_resume">
+                              <button class="btn btn-success rounded-0 btne" data-toggle="collapse" data-target="#cv">
                                   <i class="fas fa-graduation-cap"></i>
                                   <p>CV</p>
                               </button>
                           </div>
                           <div class="col-3 p-0 m-0">
-                              <button class="btn btn-warning rounded-0 text-white" id="btn" data-toggle="collapse" data-target="#Collapse_work">
+                              <button class="btn btn-warning rounded-0 text-white btne" data-toggle="collapse" data-target="#travail">
                                   <i class="fas fa-folder-open"></i>
                                   <p>Travail</p>
                               </button>
                           </div>
                           <div class="col-3 p-0">
-                             <button class="btn btn-danger rounded-0" id="btn" data-toggle="collapse" data-target="#Collapse_contact">
+                             <button class="btn btn-danger rounded-0 btne" data-toggle="collapse" data-target="#contacte">
                               <i class="fas fa-envelope"></i>
                               <p>Contact</p>
                              </button>
@@ -81,8 +81,8 @@
 
       <!--                Accueil             -->
 
-      <section class="home_area collapse show" id="Collapse_home" data-parent="#Accordion">
-        <div class="container-fluid bg-info">
+      <section class="home_area collapse" id="accueil" data-parent="#Accordion">
+        <div class="container-fluid bg-primary">
             <div class="title py-4 text-white m-0">
                 <h4 class="font-weight-bold">Welcome to my page</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nostrum</p>
@@ -102,13 +102,13 @@
                     <div>
                         <h5 class="mb-0 mt-2">CSS</h5>
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped bg-success w-60" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped bg-success w-40" role="progressbar" style="width: 60%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <div>
                         <h5 class="mb-0 mt-2">JAVASCRIPT</h5>
                         <div class="progress">
-                            <div class="progress-bar progress-bar-striped bg-info w-40" role="progressbar" style="width: 50%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-bar-striped bg-info w-40" role="progressbar" style="width: 10%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     </div>
@@ -118,7 +118,7 @@
     </section>
       <!--               CV        --> 
 
-      <section class="resume_area collapse" id="Collapse_resume" data-parent="#Accordion">
+      <section class="resume_area collapse" id="cv" data-parent="#Accordion">
           <div class="container-fluid bg-success">
               <div class="title py-4 text-white m-0">
                   <h4 class="font-weight-bold">My resume</h4>
@@ -168,7 +168,7 @@
 
       <!--             Travail           -->
 
-      <section class="collapse" id="Collapse_work" data-parent="#Accordion">
+      <section class="resume_area collapse" id="travail" data-parent="#Accordion">
           <div class="container-fluid bg-warning">
               <div class="title py-4 m-0">
                   <h4 class="font-weight-bold">My Portfolio </h4>
@@ -191,7 +191,7 @@
 
       <!--                 CONTACT                -->
 
-      <section class="collapse" id="Collapse_contact" data-parent="#Accordion">
+      <section class="resume_area collapse" id="contacte" data-parent="#Accordion">
           <div class="container-fluid bg-danger text-white">
               <div class="title py-4 m-0">
                   <h4 class="font-weight-bold">Contact </h4>
